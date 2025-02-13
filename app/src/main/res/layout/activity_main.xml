@@ -12,6 +12,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:visibility="gone"
+        android:id="@+id/progress"
         android:progressTint="@color/white" />
 <RelativeLayout
     android:layout_width="match_parent"
