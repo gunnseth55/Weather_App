@@ -78,7 +78,7 @@
 <TextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:id="@+id/temperature"
+    android:id="@+id/temperaturetext"
     android:gravity="center_horizontal"
    android:layout_marginTop="40dp"
     android:text="23\u00B0C"
@@ -89,7 +89,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/weatherimage"
-        android:layout_below="@id/temperature"
+        android:layout_below="@id/temperaturetext"
         android:src="@mipmap/ic_launcher"
         ></ImageView>
     <TextView
